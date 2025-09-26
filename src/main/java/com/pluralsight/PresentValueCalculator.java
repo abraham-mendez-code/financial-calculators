@@ -18,7 +18,7 @@ public class PresentValueCalculator {
                 invest $566,141.46 today.
             NOTE: If your results on any of these calculators are off by a few
             pennies (not dollars!), don't worry. The difference is likely attributable
-            to rounding and we aren't that concerned about it in this academy.
+            to rounding, and we aren't that concerned about it in this academy.
          */
 
         // Declare the userInput Scanner object to store input
@@ -31,7 +31,7 @@ public class PresentValueCalculator {
         double monthlyPayment = userInput.nextDouble();
 
         // Print message to the user requesting the time in years
-        System.out.print("Enter the number of years your will pay: ");
+        System.out.print("Enter the number of years you will pay: ");
 
         // Read user double input and store it in the numYears variable
         double numYears = userInput.nextDouble();
